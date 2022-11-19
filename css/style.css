@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+
+
+body {
+    font-family: 'Quicksand', sans-serif;
+
+
+}
+.navigation {
+  
+    background-color: #1e2022;
+    color:white;
+    list-style: none;
+    display: flex;
+    gap:30px;
+    
+    margin: 0px;
+   font-size: 18px;
+    padding:18px ;
+   
+}
+.logo {
+ margin-left: 5rem;
+
+}
+
+body {
+ margin:0px;
+
+
+}
+
+#home {
+
+margin-left:54rem;
+
+
+}
+
+/*header*/
+.header {
+ display: flex;
+ background-color: #52616b;
+ padding-bottom:70px ;
+ color:white;
+}
+.text{
+ margin-left:6rem;
+ margin-top: 6rem;;
+
+}
+ #visit{
+ font-size: 72px;
+ margin: 0px;
+
+}
+
+.extraInfo {
+    max-width: 70%;
+  
+    margin-left:10px;
+
+
+}
+
+ #button {
+
+ color:white;
+ background-color: #1e2022;
+ padding: 10px;
+ border-radius: 7px;
+ font-size: 15px;
+ font-weight: bold;
+ 
+
+
+}
+
+#headerAfrica {
+ width:480px;
+ height:430px;
+ margin-right:8.6rem;
+ margin-top: 3rem;
+border-radius: 30px;
+border: 45px;
+
+}
+
+/*scaling numbers */
+.numbers {
+ display:flex;
+ justify-content: space-around;
+ list-style: none;
+ font-size: 24px;
+ background-color: #1e2022;
+ color:white;
+ width:1269px;
+ padding: 2rem;
+ margin-left: 6.5rem;
+ margin-top: -2.5rem;
+
+
+}
+#about {
+ text-align: center;
+ font-size: 24px;
+}
+
+.additionalInformation {
+ display: flex;
+margin-left: 9.5rem;
+
+}
+
+#additionalPhoto {
+    width:400px;
+    height:330px;
+    margin-right:18rem;
+    margin-top: 3rem;
+   border-radius: 30px;
+   border: 45px;
+   margin-bottom: 45px;
+   
+
+
+}
+
+.mission p {
+max-width:80%;
+
+
+}
+.vision p {
+
+    max-width:80%;
+}
+
+.mission button {
+
+border:solid black 2px;
+border-radius:12px;
+
+}
+.master{
+ display: flex;
+justify-content: space-around;
+background-color: #dde3e8;
+padding: 30px;
+
+}
+
+.card {
+ background-color: #ffff;
+
+height: 350px;
+width: 310px;
+
+
+}
+
+.card p {
+ margin-left: 20px;
+ font-style: normal;
+
+
+}
+
+.card button {
+
+    border:solid black 2px;
+    border-radius:12px;
+ margin-left: 200px;
+}
+
+
+.heading {
+
+text-align: center;
+margin-top: 7rem;
+}
+
+.reviews {
+  display: flex;
+  margin-left:53px;
+
+
+}
+
+.reviews img {
+ 
+    border-radius: 13px;
+    
+    height: 450px;
+    width: 410px;
+    margin-right: 78px;
+
+}
+
+.statements p {
+    max-width: 80%;
+ 
+
+
+}
+.second {
+ max-width:38%;
+
+}
+
+#credits {
+
+  background-color: #2f4550;
+  text-decoration: none;
+color:white;
+text-align: center;
+margin-bottom: -3rem;
+
+padding: 10px;
+width:34remx ;
+height: 20px;
+}
+

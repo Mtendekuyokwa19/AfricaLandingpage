@@ -1,6 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
 
+*{
 
+margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+
+
+}
 
 body {
     font-family: 'Quicksand', sans-serif;
@@ -14,10 +21,12 @@ body {
     list-style: none;
     display: flex;
     gap:30px;
-    outline: none;
+  
     margin: 0px;
    font-size: 18px;
     padding:18px ;
+    position: sticky;
+    top: 0px;
    
 }
 .logo {
@@ -25,15 +34,17 @@ body {
 
 }
 
-body {
- margin:0px;
+.navigation li+li:hover{
 
+
+  text-decoration: underline;
 
 }
 
+
 #home {
 
-margin-left:54rem;
+margin-left:700px;
 
 
 }
@@ -41,7 +52,7 @@ margin-left:54rem;
 /*header*/
 .header {
  display: flex;
- background-image: url(/AfricaLandingpage/img/backdrop.jpg);
+ background-image: url(/AfricaLandingpage/img/desmumtz11.jpg);
  background-color: #52616b;
  padding-bottom:70px ;
  color:white;
@@ -49,8 +60,22 @@ margin-left:54rem;
 }
 
 .text{
- margin-left:6rem;
- margin-top: 6rem;;
+ margin:6rem 0rem 0rem 6rem;
+
+display: flex;
+flex-direction: column;
+gap: 30px;
+ text-align: left;
+padding: 2px;
+
+}
+.text>p{
+
+width: 50vw;
+
+}
+h3{
+margin:0px ;
 
 }
  #visit{
@@ -70,25 +95,28 @@ margin-left:54rem;
  #button {
 
  color:white;
- background-color: #1e2022;
- padding: 10px;
- border-radius: 7px;
- font-size: 15px;
- font-weight: bold;
- outline: none;
- border: none;
- 
+ background-color: #1F53B9;
+width: 150px;
+height:40px ;
+border: none;
+font-size: 16px;
+
+font-weight: 600px;
+
+
+}
+#button:hover{
+
+    background-color: white;
+    color:black
+    
 
 
 }
 
-#headerAfrica {
- width:480px;
- height:430px;
- margin-right:8.6rem;
- margin-top: 3rem;
-border-radius: 30px;
-border: 45px;
+.header{
+
+height: 95vh;
 
 }
 
@@ -99,11 +127,11 @@ border: 45px;
  justify-content: space-around;
  list-style: none;
  font-size: 24px;
- background-color: #1e2022;
+ background-color: #142D43;
  color:white;
  width:60vw;
  padding: 2rem;
-
+border-radius: 7px
 
 
 }
@@ -112,8 +140,8 @@ body>div:nth-of-type(2){
 
 display: flex;
 justify-content: center;
-position: relative;
-top: -60px;
+
+margin: -60px 0px 20px 0px;
 
 
 }
@@ -124,15 +152,26 @@ top: -60px;
 
 .additionalInformation {
  display: flex;
-margin-left: 9.5rem;
+justify-content: center;
+flex-direction: column;
+border: solid red 3px;
+padding: 60px;
+
 
 }
+.statements{
+display: flex;
+border: 3px solid red;
+justify-content: space-evenly;
+align-content: space-evenly;
 
+
+}
 #additionalPhoto {
     width:400px;
     height:330px;
     margin-right:18rem;
-    margin-top: 3rem;
+   
    border-radius: 30px;
    border: 45px;
    margin-bottom: 45px;

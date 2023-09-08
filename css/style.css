@@ -14,7 +14,7 @@ body {
     list-style: none;
     display: flex;
     gap:30px;
-    
+    outline: none;
     margin: 0px;
    font-size: 18px;
     padding:18px ;
@@ -41,10 +41,13 @@ margin-left:54rem;
 /*header*/
 .header {
  display: flex;
+ background-image: url(/AfricaLandingpage/img/backdrop.jpg);
  background-color: #52616b;
  padding-bottom:70px ;
  color:white;
+
 }
+
 .text{
  margin-left:6rem;
  margin-top: 6rem;;
@@ -72,6 +75,8 @@ margin-left:54rem;
  border-radius: 7px;
  font-size: 15px;
  font-weight: bold;
+ outline: none;
+ border: none;
  
 
 
@@ -89,16 +94,26 @@ border: 45px;
 
 /*scaling numbers */
 .numbers {
+
  display:flex;
  justify-content: space-around;
  list-style: none;
  font-size: 24px;
  background-color: #1e2022;
  color:white;
- width:1269px;
+ width:60vw;
  padding: 2rem;
- margin-left: 6.5rem;
- margin-top: -2.5rem;
+
+
+
+}
+
+body>div:nth-of-type(2){
+
+display: flex;
+justify-content: center;
+position: relative;
+top: -60px;
 
 
 }

@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
 
+  @import url('https://fonts.googleapis.com/css2?family=Lora:wght@600&family=Quicksand:wght@600&display=swap');
+
 *{
 
 margin: 0px;
@@ -55,34 +57,67 @@ margin-left:700px;
  display: flex;
  background-image: url(desmumtz11.jpg);
  background-color: #52616b;
- padding-bottom:70px ;
+
+
  color:white;
+align-items: center;
+ justify-content: center;
 
 }
+h4{
 
+    font-family:  'Lora', serif;
+
+}
 .text{
- margin:6rem 0rem 0rem 6rem;
 
 display: flex;
 flex-direction: column;
 gap: 30px;
- text-align: left;
+ text-align: center;
 padding: 2px;
+
 
 }
 .text>p{
 
-width: 50vw;
+width: 70vw;
+
+margin-left: 55px;
 
 }
-h3{
-margin:0px ;
 
-}
  #visit{
- font-size: 72px;
+ font-size: 104px;
  margin: 0px;
 
+}
+.text>div{
+
+display: flex;
+
+justify-content:center;
+font-weight: 600;
+gap: 35px;
+
+
+
+
+}
+
+.text div>button:last-child {
+
+border: solid  #1F53B9 2px;
+width: 150px;
+height:40px ;
+    background-color: transparent;
+    color: white;
+    font-size: 16px;
+}
+
+.text div>button:last-child:hover{
+
+    background-color: #1F53B9; 
 }
 
 .extraInfo {
@@ -108,8 +143,10 @@ font-weight: 600px;
 }
 #button:hover{
 
-    background-color: white;
-    color:black
+    background-color: transparent;
+    color:white;
+    border:#1F53B9 solid 2px ;
+    border-radius: 3px;
     
 
 
